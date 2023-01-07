@@ -26,6 +26,8 @@ public class SSLCheck {
 		Proxy proxy = new Proxy();
 		proxy.setHttpProxy("ipaddress:4444");
 		options.setCapability("proxy", proxy);
+		System.out.println("Git Demo");
+		System.out.println("Git Demo2");
 		
 		
 		//3.To set download directory manually
