@@ -17,6 +17,8 @@ public class Cookies {
 		
 		//delete session cookie and when you click on any link you should be navigated back to login page
 		driver.manage().deleteCookieNamed("sessionKey");
+		System.out.println("This is develop branch changes");
+		System.out.println("This won't affect the master branch");
 
 	}
 

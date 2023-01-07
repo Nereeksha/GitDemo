@@ -35,6 +35,8 @@ public class FrameTests {
 		//switch again back from iframe
 		driver.switchTo().defaultContent();
 		
+		System.out.println("Architect changes");
+		
 		
 	}
 }
